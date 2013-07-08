@@ -1,9 +1,10 @@
 SOC_FAMILY = "omap4"
-require conf/machine/include/soc-family.inc
 
+require conf/machine/include/soc-family.inc
 require conf/machine/include/tune-cortexa9.inc
 
 PREFERRED_PROVIDER_virtual/kernel = "linux-yocto"
+PREFERRED_VERSION_virtual/kernel = "3.4%"
 PREFERRED_PROVIDER_virtual/bootloader = "u-boot"
 
 PREFERRED_PROVIDER_virtual/xserver = "xserver-xorg"
