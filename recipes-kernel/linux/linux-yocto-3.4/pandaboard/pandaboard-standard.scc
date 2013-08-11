@@ -1,0 +1,6 @@
+define KMACHINE pandaboard
+define KARCH arm
+define KTYPE standard
+
+include ktypes/standard.scc
+branch panadaboard
