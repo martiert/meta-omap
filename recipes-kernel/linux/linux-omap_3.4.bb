@@ -5,8 +5,8 @@ require linux-omap.inc
 
 CORTEXA8FIXUP = "no"
 
-SRCREV = "d23689e9f790c136906ea647d555e004851122e9"
-SRC_URI = "git://dev.omapzoom.org/pub/scm/integration/kernel-ubuntu.git \
+SRCREV = "dedf4afe9aa5d03fdd1e420959f39d3224e9bdc3"
+SRC_URI = "git://dev.omapzoom.org/pub/scm/integration/kernel-ubuntu.git;branch=ti-ubuntu-3.4-1489 \
            file://defconfig \
            "
 
