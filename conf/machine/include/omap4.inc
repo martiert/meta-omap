@@ -8,11 +8,15 @@ PREFERRED_VERSION_virtual/kernel = "3.4%"
 PREFERRED_PROVIDER_virtual/bootloader = "u-boot"
 PREFERRED_VERSION_u-boot = "v2013.01%"
 
+PREFERRED_PROVIDER_virtual/egl = "pvr-omap4"
+PREFERRED_PROVIDER_virtual/libgles1 = "pvr-omap4"
+PREFERRED_PROVIDER_virtual/libgles2 = "pvr-omap4"
+
 PREFERRED_PROVIDER_virtual/xserver = "xserver-xorg"
 XSERVER = "xserver-xorg \
            xserver-xorg-module-exa \
            xf86-input-evdev \
-           xf86-video-omap"
+           pvr-omap4"
 
 # Increase this everytime you change something in the kernel
 MACHINE_KERNEL_PR = "r1"
