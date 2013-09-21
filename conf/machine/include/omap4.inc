@@ -22,6 +22,7 @@ XSERVER = "xserver-xorg \
 MACHINE_KERNEL_PR = "r1"
 
 KERNEL_IMAGETYPE = "uImage"
+KERNEL_IMAGE_SYMLINK_NAME = "${KERNEL_IMAGETYPE}"
 
 UBOOT_MACHINE := "omap4_panda_config"
 UBOOT_SUFFIX := "img"

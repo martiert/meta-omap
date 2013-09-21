@@ -11,5 +11,3 @@ COMPATIBLE_MACHINE = "pandaboard"
 
 inherit kernel siteinfo
 
-KERNEL_IMAGE_SYMLINK_NAME = "uImage"
-KERNEL_IMAGETYPE := "uImage"
