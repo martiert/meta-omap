@@ -16,7 +16,9 @@ PREFERRED_PROVIDER_virtual/xserver = "xserver-xorg"
 XSERVER = "xserver-xorg \
            xserver-xorg-module-exa \
            xf86-input-evdev \
-           pvr-omap4"
+           pvr-omap4 \
+           pvr-omap4-dkms \
+"
 
 # Increase this everytime you change something in the kernel
 MACHINE_KERNEL_PR = "r1"
