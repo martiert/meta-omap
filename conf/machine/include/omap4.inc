@@ -20,6 +20,8 @@ XSERVER = "xserver-xorg \
            pvr-omap4-dkms \
 "
 
+XSERVER += "${@base_contains('DISTRO_FEATURES', 'x11', 'xf86-video-omap', '', d)}"
+
 # Increase this everytime you change something in the kernel
 MACHINE_KERNEL_PR = "r1"
 
